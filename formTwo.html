@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <form >
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="Aname">Name:</label>
+            <input type="text" name="nameOf the candidate" id="Aname">
+            <label for="Aemail">Email:</label>
+            <input type="email" name="Email of the candidate" id="Aemail">
+            <label for="Aphone">Phone:</label>
+            <input type="phone" name="phone number of the candidate" id="Aphone">
+            <label for="DOB">Date of Birth</label> 
+            <input type="date" name="birth date of the candidate" id="DOB" >
+            <label for="">Gender</label>
+            <input type="radio" name="gender" id="M">
+            <label for="M">Male</label>
+            <input type="radio" name="gender" id="F">
+            <label for="F">Female</label>
+            <label for="cc">Country</label>
+            <select name="choseCountry" id="cc">
+                <option value="United State">United Stste</option>
+                <option value="India ">India</option>
+                <option value="UK">UK</option>
+            </select>
+
+        </fieldset>
+        <fieldset>
+            <legend>Address
+            <label for="Aname">Street</label>
+            <input type="text" name="Ad Street" id="Aname">
+            <label for="Aemail">City</label>
+            <input type="text" name="Ad city" id="Aemail">
+            <label for="Ad">State</label>
+            <input type="text" name="Ad state" id="Ad">
+            <label for="pin code">Zip code</label> 
+            <input type="number" name="ad pin code" id="pin code" min="100000" max="999999">
+        </legend>
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="comments">Comments:</label>
+            <br/>
+            <textarea name="comment" id="comments"  cols="120" rows="5"></textarea>
+            <label for="accept it">I agree to the terms of service </label>
+            <input type="checkbox" id="accept it">
+        </fieldset>
+        
+        <input type="submit" name="submit the form button" value="Submit">
+    </form>
+</body>
+</html>
